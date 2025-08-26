@@ -22,6 +22,10 @@ body {
   margin: 0 auto;
 }
 
+p {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 .outer-container {
   max-width: 1440px;
   position: relative;
@@ -63,9 +67,8 @@ button a {
   color: inherit;
 }
 button a:hover {
-    color: inherit;
+  color: inherit;
 }
-
 
 .primary-btn {
   background-color: var(--brandblue);
@@ -107,4 +110,24 @@ header {
   width: fit-content;
   position: relative;
   overflow: visible;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black);
+  font-family: "fraunces", sans-serif;
+}
+
+/*STYLES FOR HOMEPAGE HERO */
+
+.home-hero {
+  background-color: var(--lightGrey);
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

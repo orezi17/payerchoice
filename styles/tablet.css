@@ -1,5 +1,64 @@
 /* Medium devices (landscape tablets, 768px and up)*/
-@media only screen and (min-width: 768) {}
-.logo-bg {
+@media only screen and (min-width: 768px) {
+  .logo-bg {
   display: none;
+}
+
+header {
+  overflow: hidden;
+}
+
+header ul {
+  display: none;
+}
+
+ /*STYLES FOR HOMEPAGE HERO */
+
+
+.home-hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copy {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.copy-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.copy-text h1 {
+  font-size: 48px;
+}
+
+.copy-text p {
+  font-size: 14px;
+  max-width: 100%;
+}
+
+.hero-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hero-btns button {
+  width: fit-content;
+}
+
+.hero-img {
+  width: 45%;
+  height: auto;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+}
 }

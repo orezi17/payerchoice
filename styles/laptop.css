@@ -39,4 +39,24 @@
     padding: 12px 18px;
     font-size: 16px;
   }
+
+  /*STYLES FOR HOMEPAGE HERO */
+
+  .copy {
+    width: 60%;
+  }
+
+  .hero-btns {
+    flex-direction: row;
+  }
+
+  .copy-text p {
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 500;
+  }
+
+  .hero-img {
+    width: 40%;
+  }
 }
