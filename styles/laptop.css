@@ -1,0 +1,42 @@
+/* Large decives (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .logo img {
+    z-index: 100;
+  }
+
+  .logo-bg {
+    display: block;
+    height: 80px;
+    width: 200px;
+    background-color: var(--brandblue);
+    position: absolute;
+    left: 0;
+    border-radius: 0 0 999px 0;
+  }
+
+  header .navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  header .navigation nav ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+  }
+
+  .navigation nav ul a {
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+}

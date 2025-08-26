@@ -1,0 +1,10 @@
+@import url('boilerplate.css');
+@import url('tablet.css');
+@import url('laptop.css');
+@import url('desktop.css');
+
+
+
+/* Extra large decives (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {
+}

@@ -1,0 +1,110 @@
+:root {
+  --brandblue: #3d8bc1;
+  --brandGray: #555555;
+  --brandYellow: #ff9f2c;
+  --lightBlue: #f5f9fc;
+  --lightGrey: #f5f5f5;
+  --lightYellow: #fffaf4;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: var(--brandGray);
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.outer-container {
+  max-width: 1440px;
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brandYellow);
+}
+
+a:active {
+  color: var(--brandblue);
+}
+button {
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: var(--white);
+}
+
+button a {
+  display: block;
+  padding: 16px 30px;
+  text-decoration: none;
+  color: inherit;
+}
+button a:hover {
+    color: inherit;
+}
+
+
+.primary-btn {
+  background-color: var(--brandblue);
+  color: var(--white);
+}
+.primary-btn:hover {
+  background-color: var(--brandYellow);
+  color: #f5f5f5;
+}
+
+.secondary-btn {
+  background-color: var(--brandYellow);
+  color: var(--white);
+}
+
+.secondary-btn:hover {
+  background-color: var(--brandblue);
+}
+
+.tertiary-btn {
+  background-color: var(--lightYellow);
+  color: var(--white);
+}
+
+.tertiary-btn:hover {
+  background-color: var(--brandYellow);
+  color: var(--white);
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 30px;
+  width: fit-content;
+  position: relative;
+  overflow: visible;
+}
