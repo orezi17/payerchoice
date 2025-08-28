@@ -72,3 +72,14 @@ button a {
     width: 40%;
   }
 }
+
+
+/* STYLES FOR LARGE LAPTOPS 1280PX */
+@media only screen and (min-width: 1279px) {
+
+  /* STYLE FOR WHY PAYERSCHOICE CARD SECTION */
+
+  .why-pc .container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

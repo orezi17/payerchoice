@@ -32,7 +32,7 @@ p {
 }
 
 .container {
-  width: 90%;
+  width: 95%;
   height: 100%;
 }
 
@@ -97,7 +97,6 @@ button a:hover {
   background-color: var(--brandYellow);
   color: var(--white);
 }
-
 
 /* MOBILE DISPLAY STYLE */
 
@@ -190,4 +189,44 @@ h6 {
   display: flex;
   justify-content: center;
   gap: 5px;
+}
+
+/* STYLE FOR MY PAYERSCHOICE CARD SECTION */
+
+.why-pc {
+  display: flex;
+  justify-content: center;
+  padding-block: 50px;
+}
+
+.why-pc .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.why-pc-card {
+  width: 100%;
+  border-block: 4px solid var(--lightGrey);
+  border-radius: 10px;
+  padding: 25px;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  gap: 10px;
+}
+
+.why-pc-card div {
+  height: 40px;
+}
+
+.why-pc-card h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+.why-pc-card p {
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Josefin Sans", sans-serif;
 }
