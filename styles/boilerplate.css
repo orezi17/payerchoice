@@ -53,16 +53,16 @@ a:hover {
 a:active {
   color: var(--brandblue);
 }
+
 button {
   border: none;
   border-radius: 5px;
-  font-size: 18px;
-  color: var(--white);
+  font-size: 14px;
 }
 
 button a {
   display: block;
-  padding: 16px 30px;
+  padding: 14px 16px;
   text-decoration: none;
   color: inherit;
 }
@@ -98,11 +98,28 @@ button a:hover {
   color: var(--white);
 }
 
+
+/* MOBILE DISPLAY STYLE */
+
 header {
+  background-color: var(--black);
   height: 80px;
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: none;
+}
+
+.logo-bg {
+  display: none;
 }
 
 .logo {
@@ -127,7 +144,50 @@ h6 {
 .home-hero {
   background-color: var(--lightGrey);
   height: calc(100vh - 80px);
+  max-height: 750px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.home-hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.copy-text {
+  text-align: center;
+}
+
+.copy-text h1 {
+  font-size: 28px;
+  line-height: 52px;
+}
+
+.copy-text p {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.hero-img {
+  max-width: 90%;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
